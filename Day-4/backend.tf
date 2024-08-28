@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   backend "s3" {
     bucket         = "my-ews-baket150" # change this
     key            = "saumya/terraform.tfstate"
@@ -6,4 +6,4 @@ terraform {
     encrypt        = true
     dynamodb_table = "terraform-lock"
   }
-} 
+} */
