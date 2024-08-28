@@ -12,6 +12,10 @@ resource "aws_s3_bucket" "s3_bucket" {
   bucket = "my-ews-baket150" # change this
 }
 
+resource "aws_s3_bucket" "s3_bucket" {
+  bucket = "mews-baket15" # change this
+}
+
 resource "aws_dynamodb_table" "terraform_lock" {
   name           = "terraform-lock"
   billing_mode   = "PAY_PER_REQUEST"
